@@ -1,0 +1,56 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "name": "druid",
+      "type": "com.babywolf.druid.DruidProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "name": "druid.driver-class",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "defaultValue": 0,
+      "name": "druid.initial-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "defaultValue": 0,
+      "name": "druid.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "defaultValue": 0,
+      "name": "druid.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "name": "druid.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "defaultValue": false,
+      "name": "druid.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "name": "druid.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.babywolf.druid.DruidProperties",
+      "name": "druid.username",
+      "type": "java.lang.String"
+    }
+  ]
+}
