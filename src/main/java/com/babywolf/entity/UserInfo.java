@@ -3,7 +3,7 @@ package com.babywolf.entity;
 /**
  * Created by babywolf on 17/3/19.
  */
-public class UserInfo {
+public class UserInfo extends BaseEntity {
     private String username;
     private String password;
     private String usertype;
