@@ -4,12 +4,14 @@ import com.babywolf.entity.City;
 import com.babywolf.mapper.CityMapper;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by babywolf on 17/3/19.
  */
+@Service
 public class CityService {
     @Autowired
     private CityMapper cityMapper;
