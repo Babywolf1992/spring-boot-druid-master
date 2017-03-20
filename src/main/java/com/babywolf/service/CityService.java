@@ -13,6 +13,7 @@ import java.util.List;
 public class CityService {
     @Autowired
     private CityMapper cityMapper;
+
     public List<City> getAll(City city) {
         if (city.getPage() != null && city.getRows() != null) {
             PageHelper.startPage(city.getPage(), city.getRows());
